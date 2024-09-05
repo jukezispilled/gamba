@@ -8,7 +8,7 @@ import { PublicKey } from "@solana/web3.js";
  ******************************************/
 
 // Creator fee (in %)
-export const PLATFORM_CREATOR_FEE = 0.05; // 5% !!max 5%!!
+export const PLATFORM_CREATOR_FEE = 0.01; // 5% !!max 5%!!
 
 // Jackpot fee (in %)
 export const PLATFORM_JACKPOT_FEE = 0.01; // 0.1%
@@ -117,16 +117,6 @@ export const TOKENLIST = [
       "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
     decimals: 9,
     baseWager: 0.01e9,
-  },
-  // GUAC
-  {
-    mint: new PublicKey("AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"),
-    name: "Guacamole",
-    symbol: "GUAC",
-    image:
-      "https://bafkreiccbqs4jty2yjvuxp5x7gzgepquvv657ttauaqgxfhxghuz5us54u.ipfs.nftstorage.link/",
-    decimals: 5,
-    baseWager: 2000000e5,
   },
 
   // Add New Public pool
